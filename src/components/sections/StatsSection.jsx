@@ -26,9 +26,9 @@ export function StatsSection() {
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="w-full flex-shrink-0 h-full lg:min-h-[480px] 2xl:w-[259px]"
+            className=" flex-shrink-0 h-full lg:min-h-[480px] 2xl:w-[259px]"
           >
-            <div className="bg-card border border-border rounded-2xl overflow-hidden w-full h-full flex flex-col">
+            <div className="bg-card border border-border rounded-2xl overflow-hidden  h-full flex flex-col">
               <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col justify-center gap-2">
                 <div className="flex items-center justify-between mb-2 sm:mb-3">
                   <h3 className="text-xs sm:text-sm text-foreground font-normal">
@@ -90,7 +90,7 @@ export function StatsSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="w-full flex-1 bg-card border border-border rounded-2xl p-4 sm:p-5 md:p-6 h-full lg:min-h-[480px] 2xl:w-[881px]"
+            className=" flex-1 bg-card border border-border rounded-2xl p-4 sm:p-5 md:p-6 h-full lg:min-h-[480px] 2xl:w-[881px]"
           >
             <SpendOverviewCard data={spendData} />
           </motion.div>
@@ -98,7 +98,7 @@ export function StatsSection() {
           {/* Right Sidebar - Employee */}
           <EmployeeProgressCard
             categories={employeeCategories}
-            className="w-full flex-shrink-0 h-full lg:min-h-[480px] 2xl:w-[286px]"
+            className=" flex-shrink-0 h-full lg:min-h-[480px] 2xl:w-[286px]"
           />
         </div>
       </div>
