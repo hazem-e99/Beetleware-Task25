@@ -10,7 +10,7 @@ import {
 
 export function StatsSection() {
   return (
-    <section className="py-6 sm:py-8 md:py-10 m-4 sm:m-6 md:m-8 lg:m-10 relative bg-background rounded-lg">
+    <section className="py-6 sm:py-8 md:py-10 m-4 sm:m-6 md:m-8 lg:m-10 relative bg-background rounded-[20px]">
       <div className="relative  w-full p-3 sm:p-4 md:px-6 lg:px-8 rounded-lg bg-surface shadow-lg ">
         {/* Top Metrics */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 mb-4 sm:mb-6">

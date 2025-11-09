@@ -12,7 +12,7 @@ const images = [photo, photo2, photo3, photo4];
 export function HeroSection() {
   return (
     <section className="min-h-screen md:min-h-[1400px] lg:min-h-[1600px] relative pb-16 sm:pb-24 md:pb-32 lg:pb-40" style={{ zIndex: 60 }}>
-      <div className="relative pt-16 sm:pt-20 md:pt-24 lg:pt-[108px] pb-20 min-h-[900px] sm:min-h-[1000px] md:min-h-[1100px] lg:min-h-[1291px] bg-bgPricingSection">
+      <div className="relative pt-16 sm:pt-20 md:pt-24 lg:pt-[108px] pb-20 min-h-[900px] sm:min-h-[1000px] md:min-h-[1100px] lg:min-h-[1227px] bg-bgPricingSection">
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -52,10 +52,9 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-lg text-[22px] sm:text-xl text-textP mb-[56px] max-w-2xl mx-auto"
+              className="text-neutral-400 text-xl font-normal font-['DM_Sans'] leading-9 mb-[56px] max-w-3xl mx-auto"
             >
-              Empower your finance with modern software efficiency and experience
-              for small and medium-sized businesses.
+              Empower your finance team. The onestop plateform for all financial management of small and medium-sized business.
             </motion.p>
 
             <motion.div
@@ -103,7 +102,7 @@ export function HeroSection() {
           </motion.div>
         </div>
 
-        <div className="absolute left-4 right-4 sm:left-8 sm:right-8 md:left-12 md:right-12 lg:left-[90px] lg:right-[90px] top-[650px] sm:top-[700px] md:top-[750px] lg:top-[819px]">
+        <div className="absolute left-4 right-4 sm:left-8 sm:right-8 md:left-12 md:right-12 lg:left-[90px] lg:right-[90px] top-[650px] sm:top-[700px] md:top-[750px] lg:top-[700px]">
           <StatsSection />
         </div>
       </div>
