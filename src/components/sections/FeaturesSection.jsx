@@ -4,7 +4,11 @@ import { BoostingBusinessCard } from "../shared/BoostingBusinessCard.jsx";
 import { CollaborationCard } from "../shared/CollaborationCard.jsx";
 import { AccountingCard } from "../shared/AccountingCard.jsx";
 import { ExpenseManagementCard } from "../shared/ExpenseManagementCard.jsx";
-import { simpleAnalyticsData, boostingBusinessData, invoices } from "../../utils/featuresData.js";
+import {
+  simpleAnalyticsData,
+  boostingBusinessData,
+  invoices,
+} from "../../utils/featuresData.js";
 import team1 from "../../assets/images/team(1).png";
 import team2 from "../../assets/images/team(2).png";
 import team3 from "../../assets/images/team(3).png";
@@ -25,19 +29,13 @@ export function FeaturesSection() {
           className="space-y-6 sm:space-y-10 md:space-y-16"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
-            <AnalyticsCard 
-              data={simpleAnalyticsData} 
-              percentage="14.12%" 
-            />
-            <BoostingBusinessCard 
-              data={boostingBusinessData} 
-              delay={0.2} 
+            <AnalyticsCard data={simpleAnalyticsData} percentage="14.12%" />
+            <BoostingBusinessCard
+              data={boostingBusinessData}
+              delay={0.2}
               className="lg:col-span-2"
             />
-            <CollaborationCard 
-              teamImages={team} 
-              delay={0.3} 
-            />
+            <CollaborationCard teamImages={team} delay={0.3} />
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5 md:gap-6 2xl:gap-[30px]">

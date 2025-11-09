@@ -8,7 +8,7 @@ export const testimonials = [
     name: "Alfredo Lubin",
     role: "CEO at TechCorp",
     feedback:
-      "I really like the system at this management. I have recommending this software to you guys.",
+      "I really like the system at this management,i love recommending this software to you guys.",
     rating: 5,
     img: pic1,
   },
@@ -17,7 +17,7 @@ export const testimonials = [
     name: "Randy Levin",
     role: "Financial Director",
     feedback:
-      "We align our success with the success of our customers which is why we offering expensive stuff.",
+      "We alighn our succeess with the successof our customers which is why our offering transcends our software.",
     rating: 5,
     img: pic2,
   },
@@ -26,7 +26,7 @@ export const testimonials = [
     name: "Angel Rhigo",
     role: "Product Manager",
     feedback:
-      "I wish like the system at this management. I have recommending this software to you guys.",
+      "I really like the system at this management,i love recommending this software to you guys.",
     rating: 5,
     img: pic3,
   },

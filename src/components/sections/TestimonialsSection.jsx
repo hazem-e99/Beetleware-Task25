@@ -29,7 +29,7 @@ export function TestimonialsSection() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-10 sm:mb-12 md:mb-16"
+          className="text-center  "
         >
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-headTitle text-dynamicBorder text-xs sm:text-sm font-medium mb-3 sm:mb-4 border border-primary">
             <MessageSquare className="w-4 h-4" />
@@ -44,7 +44,7 @@ export function TestimonialsSection() {
         </motion.div>
 
         {/* Testimonial Cards */}
-        <div className="relative sm:ml-4 md:ml-8 lg:ml-[13.5rem]">
+        <div className="relative sm:ml-4 md:ml-8 lg:ml-[12rem] my-[86px]">
           <div
             ref={scrollRef}
             className="flex justify-start gap-4 sm:gap-6 overflow-x-auto flex-nowrap pl-4 sm:pl-6 hide-scrollbar scroll-smooth"

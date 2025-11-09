@@ -38,9 +38,9 @@ export function TestimonialCard({ testimonial }) {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.3 }}
-      className="bg-card rounded-2xl p-5 sm:p-6 md:p-8 border border-border shadow-card transition-all duration-300 w-[280px] sm:w-[400px] md:w-[520px] lg:w-[660px] flex-shrink-0"
+      className="bg-card rounded-2xl p-5 sm:p-6 md:p-8 border border-border shadow-card transition-all duration-300 w-[280px] sm:w-[400px] md:w-[520px] lg:w-[580px] xl1440:w-[550px] xxl1920:w-[660px] flex-shrink-0"
     >
-      <p className="text-muted-foreground mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg md:text-xl lg:text-[26px] w-full">
+      <p className="text-muted-foreground mb-4 sm:mb-6 text-base sm:text-lg md:text-xl 2xl:text-[23px] font-normal font-['DM_Sans'] leading-relaxed sm:leading-loose 2xl:leading-[42px] w-[515px]" style={{letterSpacing:"1px"}}>
         &quot;{testimonial.feedback}&quot;
       </p>
 
@@ -49,22 +49,28 @@ export function TestimonialCard({ testimonial }) {
           <img
             src={testimonial.img}
             alt={testimonial.name}
-            className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full"
+            className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-[60px] rounded-full"
           />
           <div>
-            <p className="font-semibold text-lg sm:text-xl md:text-2xl lg:text-[26px]">{testimonial.name}</p>
-            <div className="flex gap-1 mb-2 sm:mb-4">
+            <p className="font-normal text-lg sm:text-xl md:text-2xl lg:text-[26px]">
+              {testimonial.name}
+            </p>
+            <div className="flex gap-1 mb-2 sm:mb-4 mt-[6.81px]">
               {[...Array(testimonial.rating)].map((_, i) => (
                 <Star
                   key={i}
-                  className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 fill-[#FFC250] text-[#FFC250]"
+                  className="w-3.5 h-3.5 fill-[#FFC250] text-[#FFC250]"
                 />
               ))}
             </div>
           </div>
         </div>
         <div className="self-start sm:self-center">
-          <img src={comma} alt="quote" className="w-12 h-8 sm:w-14 sm:h-10 md:w-16 md:h-11 lg:w-[67.5px] lg:h-[48px]" />
+          <img
+            src={comma}
+            alt="quote"
+            className="w-16 h-12 sm:w-14 sm:h-10 md:w-16 md:h-11 lg:w-[67.5px] lg:h-[48px]"
+          />
         </div>
       </div>
     </motion.div>
