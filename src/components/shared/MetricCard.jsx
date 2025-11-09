@@ -17,13 +17,13 @@ export function MetricCard({ metric, index }) {
       className="bg-card border border-border rounded-2xl p-4 sm:p-5 md:p-6"
     >
       <div className="flex items-start justify-between mb-3 sm:mb-4">
-        <span className="text-xs text-[20px] sm:text-sm text-foreground font-normal">{metric.label}</span>
-        <span className="text-xs text-[14px] font-medium" style={{ color: getTextColor() }}>
+        <span className="text-xs sm:text-sm md:text-[20px] text-foreground font-normal">{metric.label}</span>
+        <span className="text-xs md:text-[14px] font-medium" style={{ color: getTextColor() }}>
           {metric.change}
         </span>
       </div>
       <div className="flex items-end justify-between gap-3 sm:gap-4">
-        <div className="text-[56px] sm:text-[36px] md:text-[40px] font-normal">{metric.value}</div>
+        <div className="text-3xl sm:text-[36px] md:text-[40px] lg:text-[56px] font-normal">{metric.value}</div>
         <div className="flex items-end gap-0.5 sm:gap-1 h-10 sm:h-12">
           {metric.bars.map((height, i) => (
             <div

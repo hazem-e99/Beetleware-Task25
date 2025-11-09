@@ -13,11 +13,11 @@ export function BoostingBusinessCard({ data, delay = 0.2, className }) {
       className={cn("bg-card border border-border rounded-3xl px-5 pt-5 sm:px-6 sm:pt-6 md:px-8 md:pt-8 pb-0 " , className)}
     >
       <div className="text-center mb-4 sm:mb-6 md:mb-8 flex flex-col items-center">
-        <h2 className="text-lg text-[28px] sm:text-xl md:text-2xl lg:text-3xl font-bold mb-2 sm:mb-3 leading-tight">
+        <h2 className="text-lg sm:text-xl md:text-2xl lg:text-[28px] font-bold mb-2 sm:mb-3 leading-tight">
           Boosting Business.
           <br /> Today and Tomorrow.
         </h2>
-        <p className="text-sm text-[20px] sm:text-base md:text-lg lg:text-[20px] text-featureP w-full sm:w-4/5 md:w-3/4">
+        <p className="text-sm sm:text-base md:text-lg lg:text-[20px] text-featureP w-full sm:w-4/5 md:w-3/4">
 Bring harmony to team expenses with budget limits and real-time monitiring. Freedom for your staff. Peace of mind for you.        </p>
       </div>
 

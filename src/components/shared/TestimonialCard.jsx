@@ -38,9 +38,9 @@ export function TestimonialCard({ testimonial }) {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.3 }}
-      className="bg-card rounded-2xl p-5 sm:p-6 md:p-8 border border-border shadow-card transition-all duration-300 w-[280px] sm:w-[400px] md:w-[520px] lg:w-[580px] xl1440:w-[550px] xxl1920:w-[660px] flex-shrink-0"
+      className="bg-card rounded-2xl p-5 sm:p-6 md:p-8 border border-border shadow-card transition-all duration-300 w-[280px] sm:w-[400px] md:w-[520px] lg:w-[580px] xl:w-[550px] 2xl:w-[660px] flex-shrink-0"
     >
-      <p className="text-muted-foreground mb-4 sm:mb-6 text-base sm:text-lg md:text-xl 2xl:text-[23px] font-normal font-['DM_Sans'] leading-relaxed sm:leading-loose 2xl:leading-[42px] w-[515px]" style={{letterSpacing:"1px"}}>
+      <p className="text-muted-foreground mb-4 sm:mb-6 text-base sm:text-lg md:text-xl 2xl:text-[23px] font-normal font-['DM_Sans'] leading-relaxed sm:leading-loose 2xl:leading-[42px] w-full max-w-[515px]" style={{letterSpacing:"1px"}}>
         &quot;{testimonial.feedback}&quot;
       </p>
 

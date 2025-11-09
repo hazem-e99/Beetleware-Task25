@@ -22,8 +22,8 @@ export function TestimonialsSection() {
   };
 
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-background">
-      <div className="px-4 sm:px-6 lg:px-8">
+    <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-background">
+      <div className="px-2 sm:px-4 md:px-6 lg:px-8">
         {/* Section header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -32,10 +32,10 @@ export function TestimonialsSection() {
           className="text-center  "
         >
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-headTitle text-dynamicBorder text-xs sm:text-sm font-medium mb-3 sm:mb-4 border border-primary">
-            <MessageSquare className="w-4 h-4" />
+            <MessageSquare className="w-3 h-3 sm:w-4 sm:h-4" />
             Testimonials
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 px-2 sm:px-4">
             What are people saying
           </h2>
           <p className="text-sm sm:text-base md:text-lg text-textP max-w-6xl mx-auto px-4">
@@ -44,10 +44,10 @@ export function TestimonialsSection() {
         </motion.div>
 
         {/* Testimonial Cards */}
-        <div className="relative sm:ml-4 md:ml-8 lg:ml-[12rem] my-[86px]">
+        <div className="relative ml-0 sm:ml-4 md:ml-8 lg:ml-[12rem] my-8 sm:my-12 md:my-16 lg:my-[86px]">
           <div
             ref={scrollRef}
-            className="flex justify-start gap-4 sm:gap-6 overflow-x-auto flex-nowrap pl-4 sm:pl-6 hide-scrollbar scroll-smooth"
+            className="flex justify-start gap-3 sm:gap-4 md:gap-6 overflow-x-auto flex-nowrap pl-2 sm:pl-4 md:pl-6 hide-scrollbar scroll-smooth"
           >
             {testimonials.map((testimonial) => (
               <TestimonialCard key={testimonial.id} testimonial={testimonial} />

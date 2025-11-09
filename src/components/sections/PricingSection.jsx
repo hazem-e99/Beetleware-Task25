@@ -5,8 +5,8 @@ import { pricingPlans } from "../../utils/pricingData.js";
 
 export function PricingSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 bg-bgPricingSection">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-bgPricingSection">
+      <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -16,13 +16,13 @@ export function PricingSection() {
           className="text-center mb-10 sm:mb-12 md:mb-16"
         >
           <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-headTitle text-dynamicBorder text-xs sm:text-sm font-medium mb-3 sm:mb-4 border border-primary">
-            <Tag className="scale-x-[-1] w-4 h-4" />
+            <Tag className="scale-x-[-1] w-3 h-3 sm:w-4 sm:h-4" />
             Pricing
           </div>
-          <h2 className="text-[47.813px] sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 tracking-[1.5px] px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[47.813px] font-bold mb-3 sm:mb-4 tracking-[1.5px] px-2 sm:px-4">
             Find the right plan
           </h2>
-          <p className="text-[18px] sm:text-base md:text-lg text-textP max-w-6xl mx-auto mt-4 sm:mt-6 md:mt-8 !leading-relaxed px-4">
+          <p className="text-sm sm:text-base md:text-lg lg:text-[18px] text-textP max-w-6xl mx-auto mt-4 sm:mt-6 md:mt-8 !leading-relaxed px-2 sm:px-4">
             Invest in your company&apos;s future with our comprehensive financial
             solution. Contact us for pricing details and see how we can help you
             streamline your finances and reach your business goals.

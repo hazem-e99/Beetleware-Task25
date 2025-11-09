@@ -11,12 +11,12 @@ export function Navbar() {
   return (
     <nav className="relative z-50 border-b border-border/40 bg-NavBarBG backdrop-blur-lg after:content-[''] after:absolute after:left-0 after:right-0 after:top-[calc(100%+16px)] after:h-[0.8px] after:bg-lineNav">
       {/* Container */}
-      <div className="max-w-[1400px] mx-auto px-6 sm:px-12 lg:px-24 xl:px-40 py-4">
-        <div className="flex h-16 items-center justify-between">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-12 lg:px-24 xl:px-40 py-4">
+        <div className="flex h-14 sm:h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <img src={logo} alt="FinBiz Logo" className="h-8 w-8 object-contain" />
-            <span className="text-2xl font-bold">FinBiz</span>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <img src={logo} alt="FinBiz Logo" className="h-7 w-7 sm:h-8 sm:w-8 object-contain" />
+            <span className="text-xl sm:text-2xl font-bold">FinBiz</span>
           </div>
 
           {/* Desktop Navigation */}

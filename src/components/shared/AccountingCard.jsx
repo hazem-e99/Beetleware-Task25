@@ -12,10 +12,10 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
       transition={{ delay }}
       className="bg-card border border-border rounded-3xl px-5 sm:px-6 md:px-8 pt-5 sm:pt-6 md:pt-8"
     >
-      <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">
+      <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-2 sm:mb-3">
         Real-time accounting at your fingertips.
       </h3>
-      <p className="text-base sm:text-lg md:text-[20px] text-featureP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
+      <p className="text-sm sm:text-base md:text-lg lg:text-[20px] text-featureP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
         Take the pain out of book keeping! Wave goodbye to mountains of
         paperwork and endless email reminders. There&apos;s now a new way of
         accounting.

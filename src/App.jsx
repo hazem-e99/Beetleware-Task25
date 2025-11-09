@@ -13,7 +13,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <ThemeProvider>
       <TooltipProvider>
-        <div className="fixed bottom-4 left-4 sm:bottom-6 sm:left-6 z-50">
+        <div className="fixed bottom-3 left-3 sm:bottom-4 sm:left-4 md:bottom-6 md:left-6 z-50">
           <ThemeToggle />
         </div>
         <Toaster />

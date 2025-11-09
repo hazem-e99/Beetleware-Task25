@@ -20,7 +20,7 @@ const team = [team1, team2, team3, team4, team5];
 export function FeaturesSection() {
   return (
     <section id="features" className="">
-      <div className=" py-12 sm:py-16 md:py-20 px-4 sm:px-6 custom-margin">
+      <div className="py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 custom-margin">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

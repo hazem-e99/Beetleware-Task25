@@ -33,7 +33,7 @@ export function SpendOverviewCard({ data }) {
           ))}
         </div>
       </div>
-      <ResponsiveContainer width="100%" height={380}>
+      <ResponsiveContainer width="100%" height="100%" minHeight={280}>
         <AreaChart data={data}>
           <defs>
             <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">
