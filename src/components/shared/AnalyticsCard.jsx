@@ -29,9 +29,9 @@ export function AnalyticsCard({ data, percentage }) {
           </span>
         </div>
 
-        <div className="h-28 sm:h-32 md:h-40" width="102%">
+        <div className="h-28 sm:h-32 md:h-40 w-full flex-1">
           <ResponsiveContainer width="100%" height="100%">
-            <LineChart data={data} >
+            <LineChart data={data}>
               <Line
                 type="natural"
                 dataKey="value"
