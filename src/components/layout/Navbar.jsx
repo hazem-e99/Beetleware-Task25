@@ -16,7 +16,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img src={logo} alt="FinBiz Logo" className="h-8 w-8 object-contain" />
-            <span className="text-xl font-bold">FinBiz</span>
+            <span className="text-2xl font-bold">FinBiz</span>
           </div>
 
           {/* Desktop Navigation */}

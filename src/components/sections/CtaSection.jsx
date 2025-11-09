@@ -30,14 +30,14 @@ export function CtaSection() {
               <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4 pt-2">
                 <Button
                   size="lg"
-                  className="w-full sm:w-[200px] md:w-[220px] lg:w-[230px] h-12 sm:h-14 md:h-16 lg:h-[55px] rounded-full bg-[#A3DC2F] hover:bg-[#A3DC2F] text-black hover:text-black font-semibold flex-shrink-0 text-sm md:text-base"
+                  className="w-60 h-14 bg-lime-400 rounded-[100px] border-[1.50px] hover:bg-lime-500 text-black hover:text-black font-semibold"
                 >
                   Request Demo
                 </Button>
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-[200px] md:w-[220px] lg:w-[230px] h-12 sm:h-14 md:h-16 lg:h-[55px] rounded-full bg-foreground hover:bg-white text-background  hover:text-black border-0 font-semibold flex-shrink-0 text-sm md:text-base"
+                  className="w-60 h-14 bg-foreground rounded-[100px] border-[1.50px] hover:bg-white text-background hover:text-black font-semibold"
                 >
                   Watch Video
                 </Button>

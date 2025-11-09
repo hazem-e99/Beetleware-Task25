@@ -12,19 +12,18 @@ export function Footer() {
   return (
     <footer className="w-full flex justify-center bg-footerBG">
       <div className="max-w-[1920px] w-full flex flex-col justify-center items-center gap-[10px] pt-12 sm:pt-20 md:pt-32 lg:pt-40 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 pb-0">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 w-full">
-          <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[420px_auto_auto_420px] gap-6 sm:gap-8 lg:gap-10 w-full">
+          <div className="space-y-4 w-[420px]">
             <div className="flex items-center gap-3">
               <img
                 src={logo}
                 alt="FinBiz Logo"
                 className="h-8 w-8 object-contain"
               />
-              <span className="text-xl font-bold">FinBiz</span>
+              <span className="text-2xl font-bold">FinBiz</span>
             </div>
-            <p className="text-sm text-textF">
-              Finance FinBiz is a 100% of software company and fully accessible
-              the best platforms for your finance easy.
+            <p className="text-textF font-normal" style={{ fontFamily: 'DM Sans', fontSize: '20px', lineHeight: '160%', letterSpacing: '0px' }}>
+              Finance FinBiz is a 100% of software company and fully accessible the best platforms for your finance easy.
             </p>
             <div className="flex gap-3">
               {[
@@ -54,10 +53,10 @@ export function Footer() {
 
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
-              <h3 className="text-xl font-bold leading-[100%] mb-4">
+              <h3 className="text-xl font-bold leading-[100%] mb-7">
                 {title}
               </h3>
-              <ul className="space-y-5">
+              <ul className="space-y-6">
                 {links.map((link) => (
                   <li key={link}>
                     <a
@@ -72,7 +71,7 @@ export function Footer() {
             </div>
           ))}
 
-          <div className="relative w-full">
+          <div className="relative w-[420px]">
             <h3 className="font-semibold mb-4 text-base sm:text-lg">Subscribe to Newsletter</h3>
 
             <div className="flex">
@@ -88,13 +87,13 @@ export function Footer() {
         border-none 
         focus-visible:ring-0 
         focus-visible:ring-offset-0
-        w-[calc(487.5px-175.55px)]
+        flex-1
       "
               />
 
               <Button
                 className="
-        w-[175.55px]
+        w-[140px]
         h-[55px]
         rounded-none
         rounded-r-[8px]
@@ -115,7 +114,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-10 md:mt-12 py-6 sm:py-8 md:py-10 border-t border-border text-center text-xs sm:text-sm text-muted-foreground w-full">
+        <div className="mt-8 sm:mt-10 md:mt-12 py-6 sm:py-8 md:py-10 border-t border-border text-center text-muted-foreground w-full" style={{ fontFamily: 'DM Sans', fontWeight: 400, fontSize: '14px', lineHeight: '20px', letterSpacing: '0.5px' }}>
           © Copyright 2024 FinBiz. All rights reserved.
         </div>
       </div>
