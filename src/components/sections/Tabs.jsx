@@ -3,7 +3,7 @@ import { tabLinks } from "../../utils/navigationData.js";
 
 export function Tabs() {
   return (
-    <div className="flex justify-center items-center w-full px-2 sm:px-4 md:px-6 lg:px-0 pt-4 sm:pt-5 md:pt-[25px]">
+    <div className="flex justify-center items-center w-full px-2 sm:px-4 md:px-6 lg:px-0 pt-4 sm:pt-5 md:pt-[48px]">
       <div className="flex items-center justify-center gap-1 sm:gap-2 md:gap-3 lg:gap-[16px] py-2 sm:py-[9px] px-2 sm:px-3 md:px-[12px] lg:px-[8px] rounded-full border border-[#FFFFFF1A] shadow-[0_0_20px_rgba(255,255,255,0.05)] backdrop-blur-md bg-[#FFFFFF33] mx-auto w-fit max-w-full overflow-x-auto scrollbar-hide">
         {/* Navigation Buttons */}
         <div className="flex items-center justify-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 min-w-max flex-nowrap">
