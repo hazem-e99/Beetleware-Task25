@@ -10,7 +10,7 @@ import team2 from "../../assets/images/team(2).png";
 import team3 from "../../assets/images/team(3).png";
 import team4 from "../../assets/images/team(4).png";
 import team5 from "../../assets/images/team(5).png";
-import vector from "../../assets/images/Vector.png";
+import vector from "../../assets/images/vector.png";
 
 const team = [team1, team2, team3, team4, team5];
 export function FeaturesSection() {
