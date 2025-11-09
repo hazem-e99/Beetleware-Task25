@@ -10,7 +10,7 @@ export function BoostingBusinessCard({ data, delay = 0.2, className }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay }}
-      className={cn("bg-card border border-border rounded-3xl px-5 pt-5 sm:px-6 sm:pt-6 md:px-8 md:pt-8 pb-0 w-[734px]" , className)}
+      className={cn("bg-card border border-border rounded-3xl px-5 pt-5 sm:px-6 sm:pt-6 md:px-8 md:pt-8 pb-0 " , className)}
     >
       <div className="text-center mb-4 sm:mb-6 md:mb-8 flex flex-col items-center">
         <h2 className="text-lg text-[28px] sm:text-xl md:text-2xl lg:text-3xl font-bold mb-2 sm:mb-3 leading-tight">
