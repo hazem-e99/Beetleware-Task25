@@ -13,7 +13,7 @@ const Home = () => {
       <Navbar />
 
       <main className="flex-1 relative">
-        <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
+        <div className="absolute -top-[324px] left-0 w-full h-full overflow-hidden pointer-events-none z-0">
           <div
             className="absolute top-[30%] sm:top-[32%] left-1/2 
               w-[90%] sm:w-[95%] md:w-[700px] lg:w-[800px] xl:w-[900px] 2xl:w-[1000px]
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="relative z-10">
           <HeroSection />
 
-          <div className="sticky top-0 z-50 py-4 ">
+          <div className="sticky top-0 z-50 ">
             <Tabs />
           </div>
 

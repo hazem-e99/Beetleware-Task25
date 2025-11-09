@@ -11,7 +11,7 @@ const images = [photo, photo2, photo3, photo4];
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen md:min-h-[1400px] lg:min-h-[1600px] relative pb-16 sm:pb-24 md:pb-32 lg:pb-40" style={{ zIndex: 60 }}>
+    <section className="min-h-screen md:min-h-[1400px] lg:min-h-[1500px] relative " style={{ zIndex: 60 }}>
       <div className="relative pt-16 sm:pt-20 md:pt-24 lg:pt-[108px] pb-20 min-h-[900px] sm:min-h-[1000px] md:min-h-[1100px] lg:min-h-[1227px] bg-bgPricingSection">
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
