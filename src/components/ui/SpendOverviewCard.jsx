@@ -16,26 +16,24 @@ export function SpendOverviewCard({ data }) {
   const [activeTab, setActiveTab] = useState("Monthly");
 
   return (
-    <div className="rounded-2xl p-4 sm:p-6 h-full">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
-        <h3 className="text-lg sm:text-xl font-semibold text-foreground">Spend Overview</h3>
+    <div className="h-full flex flex-col">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-4">
+        <h3 className="text-lg sm:text-xl font-semibold text-foreground">
+          Spend Overview
+        </h3>
         <div className="flex gap-1 sm:gap-2 overflow-x-auto hide-scrollbar w-full sm:w-auto">
           {tabs.map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-2 sm:px-3 md:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm transition-colors whitespace-nowrap flex-shrink-0 ${
-                activeTab === tab
-                  ? "bg-foreground text-background"
-                  : "bg-muted text-foreground hover:bg-muted/80"
-              }`}
+              className={`px-2 sm:px-3 md:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm transition-colors whitespace-nowrap flex-shrink-0 `}
             >
               {tab}
             </button>
           ))}
         </div>
       </div>
-      <ResponsiveContainer width="100%" height={250} className="sm:h-[280px] md:h-[300px]">
+      <ResponsiveContainer width="100%" height={380}>
         <AreaChart data={data}>
           <defs>
             <linearGradient id="colorValue" x1="0" y1="0" x2="0" y2="1">

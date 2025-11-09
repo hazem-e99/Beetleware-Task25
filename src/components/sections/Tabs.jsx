@@ -13,9 +13,8 @@ export function Tabs() {
               className="px-2 sm:px-3 md:px-5 lg:px-8
                     h-8 sm:h-9 md:h-10 lg:h-12 
                     rounded-full 
-                text-xs sm:text-sm md:text-base font-medium 
+                text-xs text-[18px] sm:text-sm md:text-base font-medium 
                 text-foreground 
-              
                 transition-colors whitespace-nowrap"
             >
               {link}

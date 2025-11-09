@@ -19,10 +19,10 @@ export function PricingSection() {
             <Tag className="scale-x-[-1] w-4 h-4" />
             Pricing
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 tracking-[1.5px] px-4">
+          <h2 className="text-[47.813px] sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 tracking-[1.5px] px-4">
             Find the right plan
           </h2>
-          <p className="text-sm sm:text-base md:text-lg text-textP max-w-6xl mx-auto mt-4 sm:mt-6 md:mt-8 !leading-relaxed px-4">
+          <p className="text-[18px] sm:text-base md:text-lg text-textP max-w-6xl mx-auto mt-4 sm:mt-6 md:mt-8 !leading-relaxed px-4">
             Invest in your company&apos;s future with our comprehensive financial
             solution. Contact us for pricing details and see how we can help you
             streamline your finances and reach your business goals.

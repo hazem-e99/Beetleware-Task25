@@ -10,12 +10,12 @@ export function AnalyticsCard({ data, percentage }) {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="bg-card border border-border rounded-3xl p-5 sm:p-6 md:p-8"
+              className="bg-card border border-border rounded-3xl p-4 sm:p-6 md:p-2"
             >
-              <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 text-center">
+              <h3 className="text-base text-[17.859px] sm:text-lg md:text-xl font-bold mb-2 text-center">
                 Simple analytics
               </h3>
-              <p className="text-xs sm:text-sm text-textP mb-4 sm:mb-6 md:mb-8 text-center">
+              <p className="text-xs text-[16px] sm:text-sm text-textP mb-4 sm:mb-6 md:mb-8 text-center">
                 Make informed decisions backed by data through our analytics
                 tools.
               </p>

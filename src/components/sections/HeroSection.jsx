@@ -52,7 +52,7 @@ export function HeroSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="text-lg sm:text-xl text-textP mb-[56px] max-w-2xl mx-auto"
+              className="text-lg text-[22px] sm:text-xl text-textP mb-[56px] max-w-2xl mx-auto"
             >
               Empower your finance with modern software efficiency and experience
               for small and medium-sized businesses.
