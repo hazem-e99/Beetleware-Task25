@@ -103,6 +103,8 @@
     --bgPricingCard: 0, 0%, 95%, 1;
     --line: 0, 0%, 95%, 1;
     --pricingCardBorder: 0, 0%, 74%, 1;
+      --featureP: 0, 0%, 20%, 1
+
 
 
   }
@@ -157,6 +159,7 @@
   --bgPricingCard: 0, 0%, 9%, 1;
   --line: 0, 0%, 14%, 1;
   --pricingCardBorder: 0, 0%, 14%, 1;
+  --featureP: 0, 0%, 51%, 1;
 
 
 
@@ -206,5 +209,20 @@
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
+  }
+}
+
+@media (min-width: 1440px) {
+  .custom-margin {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+/* لشاشة 1920px */
+@media (min-width: 1920px) {
+  .custom-margin {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }

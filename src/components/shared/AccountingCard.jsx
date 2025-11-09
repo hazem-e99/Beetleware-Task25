@@ -15,7 +15,7 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
       <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">
         Real-time accounting at your fingertips.
       </h3>
-      <p className="text-base sm:text-lg md:text-[20px] text-textP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
+      <p className="text-base sm:text-lg md:text-[20px] text-featureP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
         Take the pain out of book keeping! Wave goodbye to mountains of
         paperwork and endless email reminders. There&apos;s now a new way of
         accounting.
@@ -23,7 +23,7 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
 
       <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-6 sm:gap-8">
         <div className="bg-muted p-4 rounded-t-xl flex-1 w-full sm:w-auto">
-          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">
+          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[30px] font-bold mb-6 sm:mb-8">
             $<CountUp end={amount} duration={2} separator="," decimals={2} />
           </div>
           <div className="space-y-2">

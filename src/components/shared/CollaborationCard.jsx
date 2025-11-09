@@ -14,7 +14,7 @@ export function CollaborationCard({ teamImages, delay = 0.3 }) {
         <h3 className="text-base text-[17.859px] sm:text-lg md:text-xl font-bold mb-2">
           Easy collaboration
         </h3>
-        <p className="text-xs text-[16px] sm:text-sm text-textP mb-4 sm:mb-6 md:mb-9">
+        <p className="text-xs text-[16px] sm:text-sm text-featureP mb-4 sm:mb-6 md:mb-9">
           Seamlessly collaborate with your team members like never before.
         </p>
       </div>

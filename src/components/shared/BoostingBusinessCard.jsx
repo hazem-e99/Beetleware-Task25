@@ -17,7 +17,7 @@ export function BoostingBusinessCard({ data, delay = 0.2, className }) {
           Boosting Business.
           <br /> Today and Tomorrow.
         </h2>
-        <p className="text-sm text-[20px] sm:text-base md:text-lg lg:text-[20px] text-textP w-full sm:w-4/5 md:w-3/4">
+        <p className="text-sm text-[20px] sm:text-base md:text-lg lg:text-[20px] text-featureP w-full sm:w-4/5 md:w-3/4">
 Bring harmony to team expenses with budget limits and real-time monitiring. Freedom for your staff. Peace of mind for you.        </p>
       </div>
 

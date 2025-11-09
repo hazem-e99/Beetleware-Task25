@@ -41,6 +41,9 @@ export default {
         headTitle: "hsl(var(--headTitle))",
         bgPricingSection: "hsl(var(--bgPricingSection))",
         bgPricingCard: "hsl(var(--bgPricingCard))",
+        featureP: "hsl(var(--featureP))",
+
+
         line: "hsl(var(--line))",
         lineNav: "hsl(var(--lineNav))",
         NavBarBG: "hsl(var(--NavBarBG))",
