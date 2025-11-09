@@ -15,7 +15,7 @@ export function Tabs() {
                     rounded-full 
                 text-xs sm:text-sm md:text-base font-medium 
                 text-foreground 
-                hover:bg-foreground hover:text-background 
+              
                 transition-colors whitespace-nowrap"
             >
               {link}
