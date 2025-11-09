@@ -10,7 +10,7 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ delay }}
-      className="bg-card border border-border rounded-3xl p-5 sm:p-6 md:p-8"
+      className="bg-card border border-border rounded-3xl px-5 sm:px-6 md:px-8 pt-5 sm:pt-6 md:pt-8"
     >
       <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">
         Real-time accounting at your fingertips.
@@ -20,7 +20,7 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
       </p>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-6 sm:gap-8">
-        <div className="bg-muted p-4 rounded-xl flex-1 w-full sm:w-auto">
+        <div className="bg-muted p-4 rounded-t-xl flex-1 w-full sm:w-auto">
           <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">
             $<CountUp end={amount} duration={2} separator="," decimals={2} />
           </div>
@@ -31,11 +31,11 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
           </div>
         </div>
 
-        <div className="flex-1 w-full bg-muted py-2 px-3 sm:px-4 rounded-lg">
-          <div className="text-xs sm:text-sm font-semibold text-left mb-3 sm:mb-4">
+        <div className="flex flex-col items-start w-full sm:w-auto gap-3 sm:gap-4 md:gap-5 2xl:w-[311px] 2xl:gap-[21px] bg-muted py-3 px-3 sm:py-4 sm:px-4 md:py-4 md:px-5 2xl:py-[19px] 2xl:px-[21px] rounded-lg mb-[38px] ">
+          <div className="text-xs sm:text-sm font-semibold text-left">
             MonthlyInvoice
           </div>
-          <div className="space-y-2 sm:space-y-3">
+          <div className="space-y-2 sm:space-y-3 w-full">
 {invoices.map((invoice, index) => (
                       <div
                         key={index}
