@@ -15,13 +15,15 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
       <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3">
         Real-time accounting at your fingertips.
       </h3>
-      <p className="text-base sm:text-lg md:text-[20px] text-textP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
-        Take the pain out of book keeping! Wave goodbye to mountains of paperwork and endless email reminders. There&apos;s now a new way of accounting.
+      <p className="text-base sm:text-lg md:text-[20px] text-featureP w-full mb-6 sm:mb-8 md:mb-10 leading-relaxed">
+        Take the pain out of book keeping! Wave goodbye to mountains of
+        paperwork and endless email reminders. There&apos;s now a new way of
+        accounting.
       </p>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-6 sm:gap-8">
         <div className="bg-muted p-4 rounded-t-xl flex-1 w-full sm:w-auto">
-          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">
+          <div className="text-2xl sm:text-3xl md:text-4xl lg:text-[30px] font-bold mb-6 sm:mb-8">
             $<CountUp end={amount} duration={2} separator="," decimals={2} />
           </div>
           <div className="space-y-2">
@@ -36,30 +38,29 @@ export function AccountingCard({ amount, invoices, vectorIcon, delay = 0.4 }) {
             MonthlyInvoice
           </div>
           <div className="space-y-2 sm:space-y-3 w-full">
-{invoices.map((invoice, index) => (
-                      <div
-                        key={index}
-                        className="flex items-center gap-1 py-2 sm:py-3"
-                      >
-                        <div
-                          className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center flex-shrink-0"
-                          style={{ backgroundColor: invoice.color }}
-                        >
-                          <img
-                            src={vectorIcon}
-                            alt={invoice.name}
-                            className="w-3 h-3 sm:w-4 sm:h-4 object-contain"
-                          />
-                        </div>
-                        <div className="flex-1 ps-1 sm:ps-2 min-w-0">
-                          <span className="text-xs sm:text-sm block mb-1 sm:mb-2 truncate">{invoice.name}</span>
-                          <div className="h-1.5 sm:h-2 bg-secondary rounded-full w-3/4 mt-1" />
-                        </div>
-                        <button className="text-muted-foreground hover:text-foreground flex-shrink-0">
-                          <MoreVertical className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                        </button>
-                      </div>
-                    ))}
+            {invoices.map((invoice, index) => (
+              <div key={index} className="flex items-center gap-1 py-2 sm:py-3">
+                <div
+                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center flex-shrink-0"
+                  style={{ backgroundColor: invoice.color }}
+                >
+                  <img
+                    src={vectorIcon}
+                    alt={invoice.name}
+                    className="w-3 h-3 sm:w-4 sm:h-4 object-contain"
+                  />
+                </div>
+                <div className="flex-1 ps-1 sm:ps-2 min-w-0">
+                  <span className="text-xs sm:text-sm block mb-1 sm:mb-2 truncate">
+                    {invoice.name}
+                  </span>
+                  <div className="h-1.5 sm:h-2 bg-secondary rounded-full w-3/4 mt-1" />
+                </div>
+                <button className="text-muted-foreground hover:text-foreground flex-shrink-0">
+                  <MoreVertical className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                </button>
+              </div>
+            ))}
           </div>
         </div>
       </div>

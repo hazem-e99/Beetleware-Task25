@@ -13,7 +13,7 @@ export function ExpenseManagementCard() {
       <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold !leading-[1.5] mb-4 sm:mb-5 md:mb-6 w-full lg:max-w-[541px]">
         Optimise expense management as a team
       </h2>
-      <p className="text-textP text-base sm:text-lg lg:text-[22px] mb-8 leading-relaxed sm:leading-loose lg:leading-[1.8]">
+      <p className="text-featureP text-base sm:text-lg lg:text-[22px] mb-8 leading-relaxed sm:leading-loose lg:leading-[1.8]">
         Bring harmony to team expenses with budget limits and real-time
         monitoring. Freedom for your staff. Peace of mind for you.
       </p>

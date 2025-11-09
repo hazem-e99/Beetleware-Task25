@@ -15,8 +15,8 @@ import vector from "../../assets/images/vector.png";
 const team = [team1, team2, team3, team4, team5];
 export function FeaturesSection() {
   return (
-    <section id="features" className="py-12 sm:py-16 md:py-20 px-4 sm:px-6">
-      <div className="container mx-auto">
+    <section id="features" className="">
+      <div className=" py-12 sm:py-16 md:py-20 px-4 sm:px-6 custom-margin">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ export function FeaturesSection() {
             />
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5 md:gap-6 2xl:gap-[30px]">
             <AccountingCard
               amount={3453.0}
               invoices={invoices}
